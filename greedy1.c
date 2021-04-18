@@ -60,25 +60,20 @@ main(void)
     {
         if(troco >= 25)
         {
-            troco = troco - 25;
-            moeda++;
+            troco = troco - 25; moeda++;
         }
         else if(troco >= 10)
         {
-            troco = troco - 10;
-            moeda++;
+            troco = troco - 10; moeda++;
         }
         else if(troco >= 5)
         {
-            troco = troco - 5;
-            moeda++;
+            troco = troco - 5; moeda++;
         }
         else if(troco >= 1)
         {
-            troco = troco - 1;
-            moeda++;
+            troco = troco - 1; moeda++;
         }
-        
     }
 
     printf("Aqui está sua(s) %.2d moeda(s)\n", moeda);
